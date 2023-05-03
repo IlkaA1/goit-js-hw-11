@@ -50,8 +50,6 @@ async function onSubmit(evt){
 }
 
 
-
-
 async function fetchWord(word, page = 1){
 
     const URL = 'https://pixabay.com/api/';
@@ -63,7 +61,8 @@ async function fetchWord(word, page = 1){
 
  async function onCklick(evt){
     evt.preventDefault();
-     try {
+     
+    try {
         const keyWord = await form.searchQuery.value;
         page += 1;
     
