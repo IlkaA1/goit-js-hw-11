@@ -4,7 +4,7 @@ import "simplelightbox/dist/simple-lightbox.min.css";
 import axios from 'axios';
 
 
-//const axios = require('axios');
+
 const form = document.querySelector('.search-form');
 const gallery = document.querySelector('.gallery')
 const btLoadMore = document.querySelector('.load-more')
